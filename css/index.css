@@ -1,0 +1,46 @@
+html {
+	width: 946px;
+}
+
+#logo {
+    opacity: 0.5;
+    width: 946px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    height: 50px;
+    width: 946px;
+}
+
+body {
+    margin-top: 50px;
+    width: 946px;
+    background: url(/images/back.jpg) repeat-y;
+    background-size: 100%;
+}
+
+#map {
+    margin-right: 100px;
+    width: 27%;
+    height: 270px;
+}
+
+#footer {
+    margin-bottom: 0;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#fb_icon {
+    height: 100px;
+    width: 100px;
+}
+
+#vk_icon {
+    height: 100px;
+    width: 100px;
+}
+
+

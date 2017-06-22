@@ -17,7 +17,7 @@ header {
 body {
     margin-top: 50px;
     width: 946px;
-    background: url(/images/back.jpg) repeat-y;
+    background: url(images/back.jpg) repeat-y;
     background-size: 100%;
 }
 

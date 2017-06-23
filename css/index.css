@@ -35,10 +35,10 @@ li {
     visibility: hidden;
     width: 100%;
 }
-
-#back {
-    visibility: hidden;
-    width: 100%;
+#h1,#h2,#h3,#h4,#h5 {
+    text-align: center;
+    font: bold;
+    font-size: x-large;
 }
 
 container {

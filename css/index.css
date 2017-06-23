@@ -1,6 +1,6 @@
 html {
 	width: 946px;
-    background-image: url(/images/logo+text.jpg), url(/images/back.jpg);
+    background-image: url(../images/logo+text.jpg), url(../images/back.jpg);
     background-position: top, top;
     background-repeat: no-repeat, repeat-y;
     background-size: 100%

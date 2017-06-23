@@ -31,7 +31,7 @@ li {
   font: bold;
 }
 
-#logo{
+#logo,#back{
     visibility: hidden;
     width: 100%;
 }

@@ -31,7 +31,12 @@ li {
   font: bold;
 }
 
-#logo,#back{
+#logo {
+    visibility: hidden;
+    width: 100%;
+}
+
+#back {
     visibility: hidden;
     width: 100%;
 }

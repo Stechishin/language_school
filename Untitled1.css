@@ -12,12 +12,14 @@ position: fixed;
   margin-top:0;
   font-size:25px;
 }
-a {
-  text-decoration: none;
-  padding:10px;
-}
-a:hover {
-  background:#1C85BB;
+.nav-item a {
+    color: black;
+    display: block;
+    padding: 15px 20px;
+    text-decoration: none;
+    border-top: 1px solid rgba(255, 255, 255, 0.4);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    text-align: center;
 }
 li {
   margin-right:5px;
@@ -54,4 +56,7 @@ body {
 #logo {
     opacity: 0.5;
     width: 946px;
+}
+h1,h2,h3,h4,h5,h6 {
+    
 }

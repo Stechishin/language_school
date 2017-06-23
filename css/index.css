@@ -1,0 +1,88 @@
+html {
+	width: 946px;
+    background-image: url(/images/logo+text.jpg), url(/images/back.jpg);
+    background-position: top, top;
+    background-repeat: no-repeat, repeat-y;
+    background-size: 100%
+}
+
+ul {
+position: fixed;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  margin-top:0;
+  font-size:25px;
+  background-color: white;
+  opacity: 0.75;
+    
+}
+a {
+  text-decoration: none;
+  padding:10px;
+}
+a:hover {
+  background:#1C85BB;
+}
+li {
+  margin-right:5px;
+  display: inline;
+  color: black;
+  font: bold;
+}
+
+#logo{
+    visibility: hidden;
+    width: 100%;
+}
+
+container {
+   text-align: center;
+}
+
+#business {
+    width: 400px;   
+}  
+
+#children {
+    width: 400px;   
+}    
+
+#group {
+    width: 400px;   
+}   
+
+#online {
+    width: 400px;   
+}
+
+#individual {
+    width: 400px;   
+}    
+
+#korporative {
+    width: 400px;   
+} 
+
+#vk_icon,#fb_icon {
+    width: 100px;
+    height: 100px;
+}
+
+#map {
+    width: 85%;
+}
+
+input{
+    width: 35%;
+    justify-content: left;
+}
+
+textarea {
+    width: 85%;
+    height: 200px;
+}
+
+#send {
+   position: right;
+}

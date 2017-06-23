@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Language skool "Key"</title>
-    <link rel="stylesheet" href="css/styles.css"/>
+    <link rel="stylesheet" href="css/index.css"/>
 </head>
 
 <body>
@@ -20,8 +20,9 @@
                 </ul>
             </nav>
         </header>
+        <container>
         <section>
-                    <img id="logo" src="images/logo+text.jpg" alt="Наша емблема"
+            <img id="logo" src="images/logo+text.jpg" alt="Наша емблема"
             <h1 id="pro_nas">Про нас</h1>
             <p>      Висококваліфікована команда, яка працює з 2014 року. Наші викладачі - це молоді талановиті педагоги, які відбираються за наявною кваліфікацією та особистими якостями. 
 
@@ -40,21 +41,33 @@
         </section>
         <section>
             <h3 id="napriamku">Напрямки підготовки</h3>
-            <img src="images/business_language.JPG" alt="Розмовне та ділове мовлення" >
-            <p>Розмовне та ділове мовлення</p>
-            <img src="images/foreign_children.JPG" alt="Іноземна мова для дітей">
-            <p>Іноземна мова для дітей</p>
+            <block>
+                <img src="images/business_language.JPG" id="business" alt="Розмовне та ділове мовлення" >
+                <p>Розмовне та ділове мовлення</p>
+            </block>
+            <block>
+                <img src="images/foreign_children.JPG" id="children" alt="Іноземна мова для дітей">
+                <p>Іноземна мова для дітей</p>
+            </block>
         </section>
         <section>
             <h4 id="formu">Форми навчання</h4>
-            <img src="images/group.JPG" alt="Групові заняття">
-            <p>Групові заняття</p>
-            <img src="images/online.JPG" alt="Онлайн">
-            <p>Онлайн</p>
-            <img src="images/individual.JPG" alt="Індивідуальні заняття">
-            <p>Індивідуальні заняття</p>
-            <img src="images/korporative.jpg" alt="Корпоративні курси">
-            <p>Корпоративні курси</p>
+            <block>
+                <img src="images/group.JPG" id="group" alt="Групові заняття">
+                <p>Групові заняття</p>
+            </block>
+            <block>
+                <img src="images/online.JPG" id="online" alt="Онлайн">
+                <p>Онлайн</p>
+            </block>
+            <block>
+                <img src="images/individual.JPG" id="individual" alt="Індивідуальні заняття">
+                <p>Індивідуальні заняття</p>                
+            </block>
+            <block>
+                <img src="images/korporative.jpg" id="korporative" alt="Корпоративні курси">
+                <p>Корпоративні курси</p>
+            </block>
         </section>
         <section>
             <h5 id="znaynu">Знайти і зв'язатися</h5>
@@ -70,14 +83,15 @@
 e_mail:
            key@ukr.net</p>
         </section>
+        </container>
     </div>
     <footer>
         <h6>Пишіть нам</h6>
         <form action="send">
-        	    <input type="text" placeholder="Ваше ім'я"><br>
-        		<input type="email" placeholder="E-mail"><br>
-        		<textarea placeholder="Ваше повідомлення"></textarea><br>
-                <input type="submit" value="Відправити">
+        	    <input type="text" id="name" placeholder="Ваше ім'я"><br>
+        		<input type="email" id="email" placeholder="E-mail"><br>
+        		<textarea placeholder="Ваше повідомлення" id="mesage"></textarea><br>
+                <input type="submit" id="send" value="Відправити">
         	</form>
     </footer>
 </body>

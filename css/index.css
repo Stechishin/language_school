@@ -1,5 +1,6 @@
 html {
-	width: 946px;
+    max-width: 1100px;
+    margin: 0 auto;
     background-image: url(../images/logo+text.jpg), url(../images/back.jpg);
     background-position: top, top;
     background-repeat: no-repeat, repeat-y;
@@ -7,87 +8,162 @@ html {
 }
 
 ul {
-position: fixed;
-  list-style: none;
-  margin: 0;
-  padding-left: 0;
-  margin-top:0;
-  font-size:25px;
-  background-color: white;
-  opacity: 0.75;
-    
+    position: fixed;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 25px;
+    background-color: white;
+    opacity: 0.75;
+    text-align: center;
 }
+
 a {
-  text-decoration: none;
-  padding:10px;
+    text-decoration: none;
+    padding: 10px;
+    justify-content: space-between;
 }
+
 a:hover {
-  background:#1C85BB;
+    background: #1C85BB;
 }
+
 li {
-  margin-right:5px;
-  display: inline;
-  color: black;
-  font: bold;
+    margin-right: 5px;
+    display: inline;
+    color: black;
+    font: bold;
 }
 
 #logo {
     visibility: hidden;
     width: 100%;
 }
-#h1,#h2,#h3,#h4,#h5 {
-    text-align: center;
-    font: bold;
-    font-size: x-large;
-}
 
 container {
-   text-align: center;
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
 }
 
-#business {
-    width: 400px;   
-}  
-
-#children {
-    width: 400px;   
-}    
-
-#group {
-    width: 400px;   
-}   
-
-#online {
-    width: 400px;   
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Merriweather', serif;
+    font-style: normal;
+    font-weight: bold;
+    margin-top: 100px;
 }
 
-#individual {
-    width: 400px;   
-}    
+#h1 {
+    margin-top: 1200px;
+}
 
-#korporative {
-    width: 400px;   
-} 
+p {
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    font-family: 'Merriweather', serif;
+}
 
-#vk_icon,#fb_icon {
-    width: 100px;
-    height: 100px;
+figure {
+    margin-top: 50px;
+}
+
+figcaption {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#nap_pid {
+    display: flex;
+    align-items: center;
+}
+
+#nap_pid>figure {
+    margin-left: 75px;
+}
+
+#nap_pid>figure+figure {
+    margin-left: 150px;
+}
+
+#forms1 {
+    display: flex;
+    align-items: center;
+}
+
+#forms1>figure {
+    margin-left: 75px;
+}
+
+#forms1>figure+figure {
+    margin-left: 150px;
+}
+
+#forms2 {
+    display: flex;
+    align-items: center;
+}
+
+#forms2>figure {
+    margin-left: 75px;
+}
+
+#forms2>figure+figure {
+    margin-left: 150px;
 }
 
 #map {
     width: 85%;
+    height: 350px;
 }
 
-input{
+#skype,
+#fb_icon {
+    width: 100px;
+    height: 100px;
+}
+
+#contacts {
+    height: 100px;
+    max-width: 250px;
+    text-align: justify;
+    margin-left: 40%;
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    margin-left: 200px;
+}
+
+#name {
     width: 35%;
-    justify-content: left;
+    height: 30px;
+    font-size: 1em;
+    margin-bottom: 25px;
 }
 
-textarea {
+#email {
+    margin-bottom: 25px;
+    width: 35%;
+    height: 30px;
+    font-size: 1em;
+}
+
+#mesage {
     width: 85%;
     height: 200px;
+    font-size: 1em;
 }
 
 #send {
-   position: right;
+    height: 60px;
+    width: 15%;
+    margin-left: 70%;
+    margin-bottom: 50px;
 }

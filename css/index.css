@@ -1,43 +1,65 @@
 html {
     max-width: 1100px;
     margin: 0 auto;
-    background-image: url(../images/logo+text.jpg), url(../images/back.jpg);
-    background-position: top, top;
-    background-repeat: no-repeat, repeat-y;
-    background-size: 100%
+    background-image: url(../images/back.jpg);
+    background-position: top;
+    background-repeat: repeat-y;
+    background-size: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
-ul {
-    position: fixed;
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75px;
     list-style: none;
     margin: 0;
     padding: 0;
-    font-size: 25px;
-    background-color: white;
-    opacity: 0.75;
     text-align: center;
 }
-
-a {
-    text-decoration: none;
-    padding: 10px;
-    justify-content: space-between;
+nav li {
+    display: inline-block;
+    height: 65px;
+    margin: 0 5px;
+    transition: all 0.3s;
+}
+nav a {
+    display: block;
+    color: #42a4d6;
+    transition: all 0.3s;
+}
+nav a:hover {
+    color: #12242d;
+}
+nav span {
+    display: block;
 }
 
-a:hover {
-    background: #1C85BB;
-}
-
-li {
-    margin-right: 5px;
-    display: inline;
-    color: black;
-    font: bold;
+@media all and (min-width: 690px) {
+    nav li {
+        margin: 0;
+        transform: skewX(-10deg);
+    }
+    nav a {
+        padding: 10px 20px;
+        color: #fff;
+        background-color: #42a4d6;
+    }
+    nav a:hover {
+        color: #fff;
+        background-color: #1291d1;
+    }
+    nav span {
+        transform: skewX(10deg);
+    }
 }
 
 #logo {
-    visibility: hidden;
     width: 100%;
+    opacity: 0.5;
 }
 
 container {
@@ -163,7 +185,7 @@ footer {
 
 #send {
     height: 60px;
-    width: 15%;
-    margin-left: 70%;
+    width: 45%;
     margin-bottom: 50px;
+    font-size: 1.5em;
 }

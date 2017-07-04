@@ -1,7 +1,7 @@
 html {
     max-width: 1100px;
     margin: 0 auto;
-    background-image: url(../images/back.jpg);
+    background-image: url(../images/back.jpg) !important;
     background-position: top;
     background-repeat: repeat-y;
     background-size: 100%;
@@ -20,20 +20,24 @@ nav ul {
     padding: 0;
     text-align: center;
 }
+
 nav li {
     display: inline-block;
     height: 65px;
     margin: 0 5px;
     transition: all 0.3s;
 }
+
 nav a {
     display: block;
     color: #42a4d6;
     transition: all 0.3s;
 }
+
 nav a:hover {
     color: #12242d;
 }
+
 nav span {
     display: block;
 }
@@ -73,17 +77,26 @@ h2,
 h3,
 h4,
 h5,
-h6 {
+h6,
+h7,
+h8 {
     font-family: 'Merriweather', serif;
     font-style: normal;
     font-weight: bold;
+    font-size: 2em;
     margin-top: 100px;
+    margin-bottom: 75px;
+    text-align: center;
+    
 }
 
 #h1 {
     margin-top: 1200px;
 }
 
+#h8 {
+    margin-top: 100px;
+}
 p {
     margin-top: 50px;
     margin-left: 50px;
@@ -92,51 +105,17 @@ p {
 }
 
 figure {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
     margin-top: 50px;
 }
 
-figcaption {
-    max-width: 600px;
-    margin: 0 auto;
-}
-
-#nap_pid {
-    display: flex;
-    align-items: center;
-}
-
-#nap_pid>figure {
-    margin-left: 75px;
-}
-
-#nap_pid>figure+figure {
-    margin-left: 150px;
-}
-
-#forms1 {
-    display: flex;
-    align-items: center;
-}
-
-#forms1>figure {
-    margin-left: 75px;
-}
-
-#forms1>figure+figure {
-    margin-left: 150px;
-}
-
-#forms2 {
-    display: flex;
-    align-items: center;
-}
-
-#forms2>figure {
-    margin-left: 75px;
-}
-
-#forms2>figure+figure {
-    margin-left: 150px;
+@media screen and (max-width: 690px) {
+    figure {
+        width: 90%;
+        margin: 0 auto;
+    }
 }
 
 #map {
@@ -157,35 +136,3 @@ figcaption {
     margin-left: 40%;
 }
 
-footer {
-    font-family: 'Merriweather', serif;
-    font-size: 2em;
-    margin-left: 200px;
-}
-
-#name {
-    width: 35%;
-    height: 30px;
-    font-size: 1em;
-    margin-bottom: 25px;
-}
-
-#email {
-    margin-bottom: 25px;
-    width: 35%;
-    height: 30px;
-    font-size: 1em;
-}
-
-#mesage {
-    width: 85%;
-    height: 200px;
-    font-size: 1em;
-}
-
-#send {
-    height: 60px;
-    width: 45%;
-    margin-bottom: 50px;
-    font-size: 1.5em;
-}

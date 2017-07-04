@@ -1,0 +1,45 @@
+body {background-image: url(../images/back.jpg) !important;
+    background-position: top !important;
+    background-repeat: repeat-y !important;
+    background-size: 100% !important;
+}
+
+footer {
+    font-family: 'Merriweather', serif;
+    font-size: 2em;
+    margin-left: 200px;
+}
+
+.form {
+    
+}
+#mail_us {
+    width: 100%;
+}
+
+#name {
+    width: 35%;
+    height: 30px;
+    font-size: 1em;
+    margin-bottom: 1.5em;
+}
+
+#email {
+    margin-bottom: 1.5em;
+    width: 35%;
+    height: 30px;
+    font-size: 1em;
+}
+
+#mesage {
+    width: 85%;
+    height: 200px;
+    font-size: 1em;
+}
+
+#send {
+    height: 80px;
+    width: 45%;
+    margin-bottom: 50px;
+    font-size: 2em;
+}

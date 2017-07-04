@@ -1,0 +1,34 @@
+
+@media screen and (max-width: 690px) {
+    #nap_pid {
+        display: flex;
+        align-items: center;
+    }
+    #nap_pid>figure {
+        margin: 0 auto;
+    }
+    #nap_pid>figure+figure {
+        margin-left: 5%;
+        margin: 0 auto;
+    }
+    #forms1 {
+        display: flex;
+        align-items: center;
+    }
+    #forms1>figure {
+        margin: 0 auto;
+    }
+    #forms1>figure+figure {
+        margin-left: 5%;
+    }
+    #forms2 {
+        display: flex;
+        align-items: center;
+    }
+    #forms2>figure {
+        margin: 0 auto;
+    }
+    #forms2>figure+figure {
+        margin-left: 5%;
+    }
+}

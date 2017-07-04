@@ -5,32 +5,41 @@
     <meta charset="UTF-8">
     <title>Language skool "Key"</title>
     <link rel="icon" href="icon.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
     <link rel="stylesheet" href="css/reset.css" />
     <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" href="css/background.css" />
+
 </head>
 
 <body>
     <header>
-            <nav class="menu" >
-                <ul class="top-menu">
-                    <li><a href="#pro_nas">
+        <nav class="navbar">
+            <ul class="top-menu">
+                <li>
+                    <a href="#pro_nas" class="smooth">
                         <span>Про нас</span></a>
-                    </li>
-                    <li><a href="#kolektiv">
+                </li>
+                <li>
+                    <a href="#kolektiv" class="smooth">
                         <span>Колектив</span></a>
-                    </li>
-                     <li><a href="#napriamku">
+                </li>
+                <li>
+                    <a href="#napriamku" class="smooth">
                         <span>Напрямки підготовки</span></a>
-                    </li>
-                     <li><a href="#formu">
+                </li>
+                <li>
+                    <a href="#formu" class="smooth">
                         <span>Форми навчання</span></a>
-                    </li>
-                     <li><a href="#znaytu">
+                </li>
+                <li>
+                    <a href="#znaytu" class="smooth">
                         <span>Знайти і зв'язатися</span></a>
 
-                </ul>
-            </nav>
-        </header>
+            </ul>
+        </nav>
+    </header>
     <container>
         <section>
             <img id="logo" src="images/logo+text.jpg" alt="Наша емблема">
@@ -50,47 +59,49 @@
             </figure>
         </section>
         <section>
-            <h3 id="napriamku">Напрямки підготовки</h3>
-            <div id="nap_pid">
-                <figure id="business" class="flex-wrap">
-                    <img src="images/business_language.JPG" id="busines" alt="Розмовне та ділове мовлення">
-                    <figcaption>Розмовне та ділове мовлення</figcaption>
-                </figure>
-                <figure id="children" class="flex-wrap">
-                    <img src="images/foreign_children.JPG" alt="Іноземна мова для дітей">
-                    <figcaption>Іноземна мова для дітей</figcaption>
-                </figure>
+            <div class="row">
+                <h3 id="napriamku">Напрямки підготовки</h3>
+                <div id="nap_pid" class="formu">
+                    <figure id="business" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/business_language.JPG" id="busines" alt="Розмовне та ділове мовлення">
+                        <figcaption>Розмовне та ділове мовлення</figcaption>
+                    </figure>
+                    <figure id="children" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/foreign_children.JPG" alt="Іноземна мова для дітей">
+                        <figcaption>Іноземна мова для дітей</figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
         <section>
-            <h4 id="formu">Форми навчання</h4>
-            <div id="forms1">
-                <figure id="group" class="flex-wrap">
-                    <img src="images/group.JPG" alt="Групові заняття">
-                    <figcaption>Групові заняття</figcaption>
-                </figure>
-                <figure id="online" class="flex-wrap">
-                    <img src="images/online.JPG" alt="Онлайн">
-                    <figcaption>Онлайн</figcaption>
-                </figure>
-            </div>
-            <div id="forms2">
-                <figure id="individual" class="flex-wrap">
-                    <img src="images/individual.JPG" alt="Індивідуальні заняття">
-                    <figcaption>Індивідуальні заняття</figcaption>
-                </figure>
-                <figure id="korporative" class="flex-wrap">
-                    <img src="images/korporative.jpg" alt="Корпоративні курси">
-                    <figcaption>Корпоративні курси</figcaption>
-                </figure>
+            <div class="row">
+                <h4 id="formu">Форми навчання</h4>
+                <div id="forms" class="formu">
+                    <figure id="group" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/group.JPG" alt="Групові заняття">
+                        <figcaption>Групові заняття</figcaption>
+                    </figure>
+                    <figure id="online" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/online.JPG" alt="Онлайн">
+                        <figcaption>Онлайн</figcaption>
+                    </figure>
+                    <figure id="individual" class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/individual.JPG" alt="Індивідуальні заняття">
+                        <figcaption>Індивідуальні заняття</figcaption>
+                    </figure>
+                    <figure id="korporative" class=class="col-xs-12 col-sm-6 col-md-6 col-lg-6">
+                        <img class="img-responsive" src="images/korporative.jpg" alt="Корпоративні курси">
+                        <figcaption>Корпоративні курси</figcaption>
+                    </figure>
+                </div>
             </div>
         </section>
         <section>
             <h5 id="znaytu">Знайти і зв'язатися</h5>
-            <p>У місті</p>
+            <h6>У місті</h6>
             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d1530.526333483264!2d23.95689212868143!3d49.82313490634932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1498772204544" id="map"></iframe>
             <p>м. Львів, вул. Ряшівська, 2</p>
-            <p>У мережі</p>
+            <h7>У мережі</h7><br>
             <a href="http://facebook.com/" class="social-icon facebook">
                 <img src="images/Fb.jpg" id="fb_icon" alt="facebook">
             </a>
@@ -98,21 +109,34 @@
                 <img src="images/skype.jpg" id="skype" alt="skype">
             </a>
             <p id="contacts">
-                    Телефон:<br> (068)-008-67-45 <br>(063)-016-69-08<br> e_mail:<br> key_scool@ukr.net
+                Телефон:<br> (068)-008-67-45 <br>(063)-016-69-08<br> e_mail:<br> key_scool@ukr.net
             </p>
+            <br>
+            <br>
+            <br>
+            <h8>Пишіть нам</h8>
         </section>
     </container>
     <footer>
-        <h6>Пишіть нам</h6>
-        <form id="mail_us">
-            <input type="text" id="name" placeholder="Ваше ім'я">
-            <br>
-            <input type="email" id="email" placeholder="E-mail">
-            <br>
-            <textarea placeholder="Ваше повідомлення" id="mesage"></textarea>
-            <br>
-            <input type="submit" id="send" value="Відправити">
-        </form>
+        <div class="form" id="mail_us" action="https://formspree.io/rostislavstechishin@gmail.com">
+            <div>
+                <label>Ваше ім'я: <input class="input"  id="name" type="text" name="text" placeholder="Ваше ім'я"></label>
+            </div>
+            <div>
+                <label>Ваш E-mail:  <input class="input" id="email" type="email" name="email" placeholder="abc@abc"></label>
+            </div>
+            <div>
+                <label>Ваше повідомлення:<br> <textarea class="input"  id="mesage" name="Message"> </textarea></label>
+            </div>
+            <div>
+                <input class="submit" type="submit"  id="send" value="Відправити">
+            </div>
+        </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="js/smooth-scroll.js"></script>
 </body>
+
 </html>

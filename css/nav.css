@@ -1,15 +1,13 @@
 ul {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     list-style: none;
-    max-width: 1100px;
-    width: 100%;
+    max-width: 90%;
     height: 75px;
     padding: 0;
     font-size: large;
     color: black;
     text-transform: uppercase;
-    background: #45a1f7;
 }
 
 ul li {
@@ -19,13 +17,21 @@ ul li {
 ul a {
     display: flex;
     justify-content: space-between;
-    padding: 0 2px;
+    padding: 0 5px;
     color: #080808;
-    font: bolder;
+    font-weight: bold;
     text-decoration: none;
     line-height: 65px;
     border-style: groove;
     border-width: 5px;
-    border-color: #080808;
-    border-radius: 5px;
+    border-color: #e5ded1;
+    border-radius: 100px;
+    background: rgba(127, 194, 223, 0.6);
+}
+
+ul a:hover {
+    text-decoration: none;
+    font-weight: bolder;
+    background: rgb(51, 122, 163);
+    color: white;
 }

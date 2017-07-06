@@ -1,9 +1,9 @@
 html {
-    max-width: 1100px;
+    max-width: 1170px;
     margin: 0 auto;
     font-family: 'Merriweather', serif;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
 }
 
@@ -20,6 +20,8 @@ h5,
 h6,
 h7,
 h8 {
+    display: flex;
+    justify-content: center;
     text-align: center;
     font-size: 2.5em;
     margin-top: 50px;
@@ -29,17 +31,33 @@ h8 {
 
 p {
     display: flex;
-    justify-content: space-between;
-    width: 85%;
+    justify-content: center;
     text-align: center;
     font-family: 'Merriweather', serif;
     font-size: 1.5em;
+    color: black;
+}
+
+#info {
+    margin-left: 100px !important;
+    margin-right: 100px !important;
+}
+
+.posada {
+    margin: 0 auto;
 }
 
 .container {
     text-align: center;
 }
 
+#formu,
+#napriamku {
+    display: flex;
+    justify-content: center;
+}
+
+ 
 figure {
     display: block;
     justify-content: center;
@@ -48,28 +66,43 @@ figure {
 }
 
 figcaption {
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 400px;
     text-align: center;
     font-size: 1.5em;
     color: black;
 }
 
+.fig {
+    text-align: center;
+}
+
 #map {
-    width: 85%;
+    justify-content: space-around;
+    margin: 0 auto;
+    width: 900px;
     height: 350px;
 }
 
 #skype,
 #fb_icon {
-    margin: 10px;
+    margin: o auto;
     width: 100px;
     height: 100px;
+}
+
+#skype + #fb_icon {
+    margin: 10px;
+    align-items: center;
 }
 
 #contacts {
     height: 75px;
     max-width: 200px;
-    text-align: center;
-    margin-left: 40%;
+    margin-left: 350px;
+    color: black;
+}
+
+#in_web, #phone {
+    display: flex;
+    justify-content: center;
 }

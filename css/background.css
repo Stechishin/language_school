@@ -2,7 +2,7 @@ body {
     background-image: url(../images/back.jpg) !important;
     background-position: top !important;
     background-repeat: repeat-y !important;
-    background-size: 100% !important;
+    background-size: 1170px !important;
 }
 
 footer {
@@ -27,15 +27,16 @@ footer {
 
 
 #name {
+    display: inline;
     width: 500px;
     height: 30px;
     font-size: 1em;
     margin: 0 auto;
     margin-bottom: 1em;
-    padding-left: 19px;
-}
+    }
 
 #email {
+    display: inline;
     margin-bottom: 1.5em;
     width: 500px;
     height: 30px;
